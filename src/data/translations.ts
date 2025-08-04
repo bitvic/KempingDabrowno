@@ -43,20 +43,17 @@ export interface Translation {
   contactTitle: string;
   reserveNow: string;
   callNow: string;
-  sendEmail: string;
+  facebook: string;
   phone: string;
-  email: string;
   address: string;
   season: string;
   parking: string;
   pets: string;
-  wifi: string;
+  monitoring: string;
   seasonInfo: string;
   parkingInfo: string;
   petsInfo: string;
-  wifiInfo: string;
   dailyHours: string;
-  responseTime: string;
   mapTitle: string;
   mapDescription: string;
   openInMaps: string;
@@ -78,7 +75,7 @@ export const translations: Record<string, Translation> = {
     contact: 'Kontakt',
     
     // Hero Section
-    heroTitle: 'Przeżyj Niezapomniane Chwile na Kempingu Dąbrówno',
+    heroTitle: 'Przeżyj Niezapomniane Chwile na Kemping Dąbrówno',
     heroSubtitle: 'Codziennie palone ognisko, świeże powietrze, atrakcje dla całej rodziny i wyjątkowe wspomnienia nad jeziorem!',
     learnMore: 'Dowiedz Się Więcej',
     
@@ -114,20 +111,17 @@ export const translations: Record<string, Translation> = {
     contactTitle: 'Kontakt i Rezerwacja',
     reserveNow: 'Zarezerwuj swój pobyt już dziś!',
     callNow: 'Zadzwoń Teraz',
-    sendEmail: 'Wyślij Email',
+    facebook: 'Znajdź nas na Facebooku',
     phone: 'Telefon',
-    email: 'Email',
     address: 'Adres',
     season: 'Sezon',
     parking: 'Parking',
     pets: 'Zwierzęta',
-    wifi: 'WiFi',
+    monitoring: 'Monitoring',
     seasonInfo: 'Maj - Wrzesień',
-    parkingInfo: 'Bezpłatny dla gości',
+    parkingInfo: 'Dostępny dodatkowo płatny',
     petsInfo: 'Mile widziane',
-    wifiInfo: 'Bezpłatny internet',
     dailyHours: 'Codziennie 8:00 - 22:00',
-    responseTime: 'Odpowiadamy w 24h',
     mapTitle: 'Mapa Dojazdu',
     mapDescription: 'Kemping znajduje się 2 km od centrum Dąbrówna, przy drodze wojewódzkiej nr 527',
     openInMaps: 'Otwórz w Google Maps',
@@ -135,20 +129,20 @@ export const translations: Record<string, Translation> = {
     // Reviews data
     reviews: [
       {
-        text: 'Najlepszy kemping w okolicy! Codzienne ogniska, świetne jedzenie i mnóstwo atrakcji. Dzieci były zachwycone trampolinami i plażą. Wrócimy na pewno!',
-        author: 'Janusz i Katarzyna z rodziną'
+        text: 'Świetne miejsce 😍 naprawdę warto odwiedzić. Widać, że właściciele włożyli w to dużo serca 🙂 Czysto, kulturalnie, dużo rozrywek na terenie kempingu. Atmosfera bardzo miła i cena pobytu bardzo przystępna 😉 Naprawdę z czystym sumieniem mogę polecić 😉',
+        author: 'Daria B'
       },
       {
-        text: 'Piękne miejsce nad jeziorem z niesamowitą atmosferą. Gokarty to hit, a wieczorne ogniska z muzyką na żywo to coś wyjątkowego. Polecamy każdemu!',
-        author: 'Rodzina Kowalskich'
+        text: 'Przyjechałam ze znajomymi na parę dni pod namiot, świetne miejsce do odpoczynku, leżaki do dyspozycji. Czyste zaplecze sanitarne i miła obsługa. Idealne na relaks blisko natury. Już planujemy ponowny przyjazd za rok 😌😌',
+        author: 'Ola E'
       },
       {
-        text: 'Kemping Dąbrówno to raj dla miłośników przyrody i aktywnego wypoczynku. Czyste jezioro, świetne kajaki i najlepsza wędzona ryba w okolicy!',
-        author: 'Anna i Michał'
+        text: 'Przecudne miejsce dla rodzin, par, singli, paczek przyjaciół. Jak Wam wygodnie tak zaglądajcie, bo... WARTO!! Wszędzie sympatyczni ludzie – zaczynając od właścicieli!! Baaaardzo polecam! :D',
+        author: 'Beata P'
       },
       {
-        text: 'Wspaniałe miejsce na rodzinne wakacje. Dzieci miały mnóstwo zabawy, a my mogliśmy się zrelaksować na leżakach. Bar serwuje wyśmienite drinki!',
-        author: 'Rodzina Nowaków'
+        text: 'Bardzo fajne miejsce, można się zrelaksować, zjeść, wypić piwo lub coś mocniejszego. Pyszne rybki wędzone na miejscu, muzyka dla każdego, organizowane są różnego rodzaju warsztaty. Bardzo sympatyczni właściciele. Wiem, że tam wrócę. Polecam !!!',
+        author: 'Katarzyna K'
       }
     ]
   },
@@ -197,20 +191,17 @@ export const translations: Record<string, Translation> = {
     contactTitle: 'Contact & Booking',
     reserveNow: 'Book your stay today!',
     callNow: 'Call Now',
-    sendEmail: 'Send Email',
+    facebook: 'Find us on Facebook',
     phone: 'Phone',
-    email: 'Email',
     address: 'Address',
     season: 'Season',
     parking: 'Parking',
     pets: 'Pets',
-    wifi: 'WiFi',
+    monitoring: 'Monitoring',
     seasonInfo: 'May - September',
-    parkingInfo: 'Free for guests',
+    parkingInfo: 'Available for an additional fee',
     petsInfo: 'Welcome',
-    wifiInfo: 'Free internet',
     dailyHours: 'Daily 8:00 AM - 10:00 PM',
-    responseTime: 'We reply within 24h',
     mapTitle: 'Directions',
     mapDescription: 'The campground is located 2 km from Dąbrówno center, on provincial road No. 527',
     openInMaps: 'Open in Google Maps',
@@ -280,20 +271,17 @@ export const translations: Record<string, Translation> = {
     contactTitle: 'Kontakt & Buchung',
     reserveNow: 'Buchen Sie Ihren Aufenthalt noch heute!',
     callNow: 'Jetzt Anrufen',
-    sendEmail: 'Email Senden',
+    facebook: 'Finden Sie uns auf Facebook',
     phone: 'Telefon',
-    email: 'E-Mail',
     address: 'Adresse',
     season: 'Saison',
     parking: 'Parkplatz',
     pets: 'Haustiere',
-    wifi: 'WLAN',
+    monitoring: 'Überwachung',
     seasonInfo: 'Mai - September',
-    parkingInfo: 'Kostenlos für Gäste',
+    parkingInfo: 'Gegen Aufpreis verfügbar',
     petsInfo: 'Willkommen',
-    wifiInfo: 'Kostenloses Internet',
     dailyHours: 'Täglich 8:00 - 22:00 Uhr',
-    responseTime: 'Antwort innerhalb 24h',
     mapTitle: 'Anfahrt',
     mapDescription: 'Der Campingplatz liegt 2 km vom Zentrum Dąbrówno entfernt, an der Landesstraße Nr. 527',
     openInMaps: 'In Google Maps Öffnen',

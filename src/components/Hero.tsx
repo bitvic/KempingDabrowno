@@ -14,7 +14,7 @@ export const Hero: React.FC<HeroProps> = ({ t }) => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60"
         style={{
-          backgroundImage: `url('https://images.pexels.com/photos/1061640/pexels-photo-1061640.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')`
+          backgroundImage: `url('/images/background.jpg')`
         }}
       />
       

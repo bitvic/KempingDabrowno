@@ -42,13 +42,13 @@ export const Navigation: React.FC<NavigationProps> = ({ currentLanguage, switchL
       isScrolled ? 'bg-white shadow-soft' : 'bg-transparent'
     }`}>
       <div className="max-w-6xl mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className={`flex items-center justify-between transition-all duration-300 ${isScrolled ? 'h-24' : 'h-32'}`}>
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src="/images/logo.svg" 
-              alt="Kemping Dąbrówno Logo" 
-             className="h-20 w-auto transition-opacity duration-300"
+            <img
+              src="/images/logo.svg"
+              alt="Kemping Dąbrówno Logo"
+              className={`w-auto transition-all duration-300 ${isScrolled ? 'h-20' : 'h-28'}`}
             />
           </div>
 

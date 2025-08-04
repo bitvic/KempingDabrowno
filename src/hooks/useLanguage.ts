@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
-import { translations, Translation } from '../data/translations';
+import { translations } from '../data/translations';
+import type { Translation } from '../data/translations';
 
+export type { Translation };
 export type Language = 'pl' | 'en' | 'de';
 
 export const useLanguage = () => {

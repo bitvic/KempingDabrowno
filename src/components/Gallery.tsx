@@ -11,31 +11,31 @@ export const Gallery: React.FC<GalleryProps> = ({ t }) => {
 
   const images = [
     {
-      src: '/images/91.jpg',
+      src: '/images/91.webp',
     },
     {
-      src: '/images/82.jpg',
+      src: '/images/82.webp',
     },
     {
-      src: '/images/45.jpg',
+      src: '/images/45.webp',
     },
     {
-      src: '/images/44.jpg',
+      src: '/images/44.webp',
     },
     {
-      src: '/images/119.jpg',
+      src: '/images/119.webp',
     },
     {
-      src: '/images/127.jpg',
+      src: '/images/127.webp',
     },
     {
-      src: '/images/92.jpg',
+      src: '/images/92.webp',
     },
     {
-      src: '/images/33.jpg',
+      src: '/images/33.webp',
     },
     {
-      src: '/images/3.jpg',
+      src: '/images/3.webp',
     }
   ];
 
