@@ -209,20 +209,20 @@ export const translations: Record<string, Translation> = {
     // Reviews data
     reviews: [
       {
-        text: 'Best campground in the area! Daily bonfires, great food and lots of attractions. Kids loved the trampolines and beach. We will definitely come back!',
-        author: 'Janusz & Katarzyna with family'
+        text: 'Great place 😍 really worth visiting. You can see that the owners put a lot of heart into it 🙂 Clean, cultured, lots of entertainment on the campsite. The atmosphere is very nice and the price of the stay is very affordable 😉 I can really recommend it with a clear conscience 😉',
+        author: 'Daria B'
       },
       {
-        text: 'Beautiful lakeside location with amazing atmosphere. Go-karts are a hit, and evening bonfires with live music are something special. We recommend to everyone!',
-        author: 'The Kowalski Family'
+        text: 'I came with my friends for a few days in a tent, a great place to rest, sunbeds available. Clean sanitary facilities and nice service. Perfect for relaxing close to nature. We are already planning to come back next year 😌😌',
+        author: 'Ola E'
       },
       {
-        text: 'Kemping Dąbrówno is paradise for nature lovers and active recreation. Clean lake, great kayaks and the best smoked fish in the area!',
-        author: 'Anna & Michał'
+        text: 'A wonderful place for families, couples, singles, groups of friends. Come as you please, because... IT\'S WORTH IT!! Friendly people everywhere – starting with the owners!! I highly recommend it! :D',
+        author: 'Beata P'
       },
       {
-        text: 'Wonderful place for family vacation. Kids had lots of fun, and we could relax on the loungers. The bar serves excellent drinks!',
-        author: 'The Nowak Family'
+        text: 'A very cool place, you can relax, eat, drink a beer or something stronger. Delicious smoked fish on site, music for everyone, various workshops are organized. Very friendly owners. I know I will be back there. I recommend !!!',
+        author: 'Katarzyna K'
       }
     ]
   },
@@ -289,20 +289,20 @@ export const translations: Record<string, Translation> = {
     // Reviews data
     reviews: [
       {
-        text: 'Bester Campingplatz in der Gegend! Tägliche Lagerfeuer, tolles Essen und viele Attraktionen. Kinder liebten die Trampoline und den Strand. Wir kommen definitiv wieder!',
-        author: 'Janusz & Katarzyna mit Familie'
+        text: 'Toller Ort 😍 wirklich einen Besuch wert. Man merkt, dass die Besitzer viel Herzblut hineingesteckt haben 🙂 Sauber, kultiviert, viele Unterhaltungsmöglichkeiten auf dem Campingplatz. Die Atmosphäre ist sehr nett und der Preis für den Aufenthalt sehr günstig 😉 Ich kann es wirklich mit gutem Gewissen weiterempfehlen 😉',
+        author: 'Daria B'
       },
       {
-        text: 'Wunderschöne Lage am See mit fantastischer Atmosphäre. Go-Karts sind ein Hit, und abendliche Lagerfeuer mit Live-Musik sind etwas Besonderes. Wir empfehlen es jedem!',
-        author: 'Familie Kowalski'
+        text: 'Ich kam mit meinen Freunden für ein paar Tage zum Zelten, ein toller Ort zum Ausruhen, Liegestühle vorhanden. Saubere Sanitäranlagen und netter Service. Perfekt zum Entspannen in der Natur. Wir planen bereits, nächstes Jahr wiederzukommen 😌😌',
+        author: 'Ola E'
       },
       {
-        text: 'Kemping Dąbrówno ist ein Paradies für Naturliebhaber und aktive Erholung. Sauberer See, tolle Kajaks und der beste geräucherte Fisch in der Gegend!',
-        author: 'Anna & Michał'
+        text: 'Ein wunderbarer Ort für Familien, Paare, Singles, Freundesgruppen. Kommen Sie, wie es Ihnen gefällt, denn... ES LOHNT SICH!! Überall freundliche Menschen – angefangen bei den Besitzern!! Ich kann es nur wärmstens empfehlen! :D',
+        author: 'Beata P'
       },
       {
-        text: 'Wunderbarer Ort für Familienurlaub. Kinder hatten viel Spaß, und wir konnten uns auf den Liegestühlen entspannen. Die Bar serviert ausgezeichnete Getränke!',
-        author: 'Familie Nowak'
+        text: 'Ein sehr cooler Ort, man kann sich entspannen, essen, ein Bier oder etwas Stärkeres trinken. Köstlicher geräucherter Fisch vor Ort, Musik für jeden, verschiedene Workshops werden organisiert. Sehr freundliche Besitzer. Ich weiß, dass ich dorthin zurückkehren werde. Ich empfehle !!!',
+        author: 'Katarzyna K'
       }
     ]
   }
